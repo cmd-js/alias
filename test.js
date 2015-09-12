@@ -11,7 +11,7 @@ test('name()', function (t) {
   t.deepEqual(name('one', 'two'), {
     type: 'alias',
     value: ['one', 'two']
-  }, 'multiple inputs');
+  }, 'multiple inputs')
 
   t.end();
 })
