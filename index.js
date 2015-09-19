@@ -1,6 +1,6 @@
 var asArray = require('as-array')
 
-module.exports = function name () {
+module.exports = function alias () {
 
   return {
     type: 'alias',

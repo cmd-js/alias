@@ -1,2 +1,3 @@
-# name
+# alias
+
 Alias commands with cmd

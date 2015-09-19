@@ -1,14 +1,14 @@
 var test = require('tape')
-var name = require('./')
+var alias = require('./')
 
-test('name()', function (t) {
+test('alias()', function (t) {
 
-  t.deepEqual(name(), {
+  t.deepEqual(alias(), {
     type: 'alias',
     value: []
   }, 'no inputs')
 
-  t.deepEqual(name('one', 'two'), {
+  t.deepEqual(alias('one', 'two'), {
     type: 'alias',
     value: ['one', 'two']
   }, 'multiple inputs')
